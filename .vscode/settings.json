@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "signal.h": "c",
+        "wait.h": "c",
+        "mman.h": "c",
+        "types.h": "c",
+        "stat.h": "c",
+        "stdio.h": "c",
+        "libc-header-start.h": "c",
+        "netdb.h": "c",
+        "csapp.h": "c"
+    }
+}

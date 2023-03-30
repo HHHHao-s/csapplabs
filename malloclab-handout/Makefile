@@ -10,6 +10,14 @@ CFLAGS = -g -Wall -m32
 
 OBJS = mdriver.o mm.o memlib.o fsecs.o fcyc.o clock.o ftimer.o
 
+
+ori:mdriver
+	./mdriver -V -f test.rep
+
+test:mdriver
+	python3 test.py > test.rep
+	./mdriver -v -a -l -f test.rep
+
 mdriver: $(OBJS)
 	$(CC) $(CFLAGS) -o mdriver $(OBJS)
 

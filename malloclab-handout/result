@@ -1,0 +1,3000 @@
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000191 33525
+Total           0%    6400  0.000191 33525
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   76%    6400  0.000551 11609
+Total          76%    6400  0.000551 11609
+
+Perf index = 46 (util) + 40 (thru) = 86/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000274 23392
+Total           0%    6400  0.000274 23392
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   63%    6400  0.000545 11750
+Total          63%    6400  0.000545 11750
+
+Perf index = 38 (util) + 40 (thru) = 78/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000735  8709
+Total           0%    6400  0.000735  8709
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000756  8469
+Total          81%    6400  0.000756  8469
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.001205  5312
+Total           0%    6400  0.001205  5312
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000607 10540
+Total          82%    6400  0.000607 10540
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000365 17553
+Total           0%    6400  0.000365 17553
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   84%    6400  0.000577 11090
+Total          84%    6400  0.000577 11090
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000970  6597
+Total           0%    6400  0.000970  6597
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000560 11424
+Total          81%    6400  0.000560 11424
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000361 17748
+Total           0%    6400  0.000361 17748
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   85%    6400  0.000560 11424
+Total          85%    6400  0.000560 11424
+
+Perf index = 51 (util) + 40 (thru) = 91/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000524 12209
+Total           0%    6400  0.000524 12209
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000563 11372
+Total          81%    6400  0.000563 11372
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000561 11416
+Total           0%    6400  0.000561 11416
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   83%    6400  0.000562 11394
+Total          83%    6400  0.000562 11394
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.001381  4635
+Total           0%    6400  0.001381  4635
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   78%    6400  0.000538 11903
+Total          78%    6400  0.000538 11903
+
+Perf index = 47 (util) + 40 (thru) = 87/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000245 26112
+Total           0%    6400  0.000245 26112
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000554 11544
+Total          82%    6400  0.000554 11544
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.001126  5685
+Total           0%    6400  0.001126  5685
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000548 11689
+Total          82%    6400  0.000548 11689
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.001253  5108
+Total           0%    6400  0.001253  5108
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   75%    6400  0.000555 11523
+Total          75%    6400  0.000555 11523
+
+Perf index = 45 (util) + 40 (thru) = 85/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000558 11472
+Total           0%    6400  0.000558 11472
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000557 11498
+Total          81%    6400  0.000557 11498
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000687  9323
+Total           0%    6400  0.000687  9323
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   73%    6400  0.000552 11590
+Total          73%    6400  0.000552 11590
+
+Perf index = 44 (util) + 40 (thru) = 84/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000565 11335
+Total           0%    6400  0.000565 11335
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   67%    6400  0.000550 11638
+Total          67%    6400  0.000550 11638
+
+Perf index = 40 (util) + 40 (thru) = 80/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000220 29091
+Total           0%    6400  0.000220 29091
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000542 11804
+Total          82%    6400  0.000542 11804
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000204 31373
+Total           0%    6400  0.000204 31373
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   80%    6400  0.000606 10565
+Total          80%    6400  0.000606 10565
+
+Perf index = 48 (util) + 40 (thru) = 88/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.001401  4568
+Total           0%    6400  0.001401  4568
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000584 10965
+Total          81%    6400  0.000584 10965
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.001346  4755
+Total           0%    6400  0.001346  4755
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   83%    6400  0.000571 11210
+Total          83%    6400  0.000571 11210
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000242 26435
+Total           0%    6400  0.000242 26435
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   70%    6400  0.000570 11230
+Total          70%    6400  0.000570 11230
+
+Perf index = 42 (util) + 40 (thru) = 82/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000847  7561
+Total           0%    6400  0.000847  7561
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   59%    6400  0.000579 11048
+Total          59%    6400  0.000579 11048
+
+Perf index = 35 (util) + 40 (thru) = 75/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000865  7398
+Total           0%    6400  0.000865  7398
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000601 10652
+Total          82%    6400  0.000601 10652
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000346 18481
+Total           0%    6400  0.000346 18481
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   49%    6400  0.000563 11362
+Total          49%    6400  0.000563 11362
+
+Perf index = 29 (util) + 40 (thru) = 69/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000190 33596
+Total           0%    6400  0.000190 33596
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   74%    6400  0.000555 11527
+Total          74%    6400  0.000555 11527
+
+Perf index = 44 (util) + 40 (thru) = 84/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000401 15948
+Total           0%    6400  0.000401 15948
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000551 11624
+Total          81%    6400  0.000551 11624
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000231 27682
+Total           0%    6400  0.000231 27682
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   83%    6400  0.000548 11683
+Total          83%    6400  0.000548 11683
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000997  6421
+Total           0%    6400  0.000997  6421
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   77%    6400  0.000547 11700
+Total          77%    6400  0.000547 11700
+
+Perf index = 46 (util) + 40 (thru) = 86/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000495 12932
+Total           0%    6400  0.000495 12932
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   64%    6400  0.000560 11420
+Total          64%    6400  0.000560 11420
+
+Perf index = 38 (util) + 40 (thru) = 78/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.001340  4776
+Total           0%    6400  0.001340  4776
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   84%    6400  0.000557 11496
+Total          84%    6400  0.000557 11496
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000903  7090
+Total           0%    6400  0.000903  7090
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   85%    6400  0.000565 11329
+Total          85%    6400  0.000565 11329
+
+Perf index = 51 (util) + 40 (thru) = 91/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000328 19530
+Total           0%    6400  0.000328 19530
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   69%    6400  0.000573 11173
+Total          69%    6400  0.000573 11173
+
+Perf index = 41 (util) + 40 (thru) = 81/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000293 21828
+Total           0%    6400  0.000293 21828
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000573 11177
+Total          82%    6400  0.000573 11177
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000268 23863
+Total           0%    6400  0.000268 23863
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   84%    6400  0.000668  9587
+Total          84%    6400  0.000668  9587
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000191 33561
+Total           0%    6400  0.000191 33561
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000603 10622
+Total          81%    6400  0.000603 10622
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000215 29795
+Total           0%    6400  0.000215 29795
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   59%    6400  0.000575 11127
+Total          59%    6400  0.000575 11127
+
+Perf index = 35 (util) + 40 (thru) = 75/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000419 15285
+Total           0%    6400  0.000419 15285
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   80%    6400  0.000594 10780
+Total          80%    6400  0.000594 10780
+
+Perf index = 48 (util) + 40 (thru) = 88/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000234 27409
+Total           0%    6400  0.000234 27409
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000560 11431
+Total          82%    6400  0.000560 11431
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000811  7889
+Total           0%    6400  0.000811  7889
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   84%    6400  0.000550 11638
+Total          84%    6400  0.000550 11638
+
+Perf index = 51 (util) + 40 (thru) = 91/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000763  8386
+Total           0%    6400  0.000763  8386
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   83%    6400  0.000545 11745
+Total          83%    6400  0.000545 11745
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000284 22511
+Total           0%    6400  0.000284 22511
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   61%    6400  0.000585 10940
+Total          61%    6400  0.000585 10940
+
+Perf index = 36 (util) + 40 (thru) = 76/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000749  8541
+Total           0%    6400  0.000749  8541
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   74%    6400  0.000564 11356
+Total          74%    6400  0.000564 11356
+
+Perf index = 44 (util) + 40 (thru) = 84/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000240 26644
+Total           0%    6400  0.000240 26644
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   59%    6400  0.000566 11301
+Total          59%    6400  0.000566 11301
+
+Perf index = 35 (util) + 40 (thru) = 75/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000318 20094
+Total           0%    6400  0.000318 20094
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   61%    6400  0.000614 10429
+Total          61%    6400  0.000614 10429
+
+Perf index = 37 (util) + 40 (thru) = 77/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000501 12785
+Total           0%    6400  0.000501 12785
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   83%    6400  0.000574 11142
+Total          83%    6400  0.000574 11142
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000218 29344
+Total           0%    6400  0.000218 29344
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   74%    6400  0.000600 10672
+Total          74%    6400  0.000600 10672
+
+Perf index = 44 (util) + 40 (thru) = 84/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.001060  6041
+Total           0%    6400  0.001060  6041
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   49%    6400  0.000846  7566
+Total          49%    6400  0.000846  7566
+
+Perf index = 29 (util) + 40 (thru) = 69/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000279 22947
+Total           0%    6400  0.000279 22947
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   64%    6400  0.000583 10976
+Total          64%    6400  0.000583 10976
+
+Perf index = 38 (util) + 40 (thru) = 78/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000611 10480
+Total           0%    6400  0.000611 10480
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   72%    6400  0.000574 11150
+Total          72%    6400  0.000574 11150
+
+Perf index = 43 (util) + 40 (thru) = 83/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000467 13696
+Total           0%    6400  0.000467 13696
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   85%    6400  0.000580 11040
+Total          85%    6400  0.000580 11040
+
+Perf index = 51 (util) + 40 (thru) = 91/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000838  7639
+Total           0%    6400  0.000838  7639
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   84%    6400  0.000563 11370
+Total          84%    6400  0.000563 11370
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000872  7339
+Total           0%    6400  0.000872  7339
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   83%    6400  0.000556 11517
+Total          83%    6400  0.000556 11517
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.001019  6279
+Total           0%    6400  0.001019  6279
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   61%    6400  0.000561 11412
+Total          61%    6400  0.000561 11412
+
+Perf index = 37 (util) + 40 (thru) = 77/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000184 34745
+Total           0%    6400  0.000184 34745
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   75%    6400  0.000570 11232
+Total          75%    6400  0.000570 11232
+
+Perf index = 45 (util) + 40 (thru) = 85/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000189 33773
+Total           0%    6400  0.000189 33773
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   75%    6400  0.000575 11132
+Total          75%    6400  0.000575 11132
+
+Perf index = 45 (util) + 40 (thru) = 85/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000490 13056
+Total           0%    6400  0.000490 13056
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   78%    6400  0.000557 11494
+Total          78%    6400  0.000557 11494
+
+Perf index = 47 (util) + 40 (thru) = 87/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000774  8267
+Total           0%    6400  0.000774  8267
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   61%    6400  0.000562 11398
+Total          61%    6400  0.000562 11398
+
+Perf index = 37 (util) + 40 (thru) = 77/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.001176  5444
+Total           0%    6400  0.001176  5444
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   84%    6400  0.000569 11246
+Total          84%    6400  0.000569 11246
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000222 28803
+Total           0%    6400  0.000222 28803
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   78%    6400  0.000557 11486
+Total          78%    6400  0.000557 11486
+
+Perf index = 47 (util) + 40 (thru) = 87/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000690  9271
+Total           0%    6400  0.000690  9271
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000649  9867
+Total          82%    6400  0.000649  9867
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000412 15523
+Total           0%    6400  0.000412 15523
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   80%    6400  0.000585 10948
+Total          80%    6400  0.000585 10948
+
+Perf index = 48 (util) + 40 (thru) = 88/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000180 35595
+Total           0%    6400  0.000180 35595
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000564 11339
+Total          82%    6400  0.000564 11339
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000214 29865
+Total           0%    6400  0.000214 29865
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   77%    6400  0.000556 11519
+Total          77%    6400  0.000556 11519
+
+Perf index = 46 (util) + 40 (thru) = 86/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000774  8273
+Total           0%    6400  0.000774  8273
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   74%    6400  0.000557 11498
+Total          74%    6400  0.000557 11498
+
+Perf index = 44 (util) + 40 (thru) = 84/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000203 31574
+Total           0%    6400  0.000203 31574
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000573 11163
+Total          81%    6400  0.000573 11163
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000366 17486
+Total           0%    6400  0.000366 17486
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000564 11341
+Total          81%    6400  0.000564 11341
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000407 15736
+Total           0%    6400  0.000407 15736
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   78%    6400  0.000560 11429
+Total          78%    6400  0.000560 11429
+
+Perf index = 47 (util) + 40 (thru) = 87/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000500 12797
+Total           0%    6400  0.000500 12797
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000548 11670
+Total          82%    6400  0.000548 11670
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000430 14870
+Total           0%    6400  0.000430 14870
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   62%    6400  0.000560 11429
+Total          62%    6400  0.000560 11429
+
+Perf index = 37 (util) + 40 (thru) = 77/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000314 20382
+Total           0%    6400  0.000314 20382
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000566 11315
+Total          81%    6400  0.000566 11315
+
+Perf index = 48 (util) + 40 (thru) = 88/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000982  6518
+Total           0%    6400  0.000982  6518
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   56%    6400  0.000548 11670
+Total          56%    6400  0.000548 11670
+
+Perf index = 34 (util) + 40 (thru) = 74/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000213 29991
+Total           0%    6400  0.000213 29991
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   84%    6400  0.000552 11605
+Total          84%    6400  0.000552 11605
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000303 21150
+Total           0%    6400  0.000303 21150
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000564 11352
+Total          81%    6400  0.000564 11352
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000234 27327
+Total           0%    6400  0.000234 27327
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   75%    6400  0.000559 11445
+Total          75%    6400  0.000559 11445
+
+Perf index = 45 (util) + 40 (thru) = 85/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000269 23765
+Total           0%    6400  0.000269 23765
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   85%    6400  0.000569 11252
+Total          85%    6400  0.000569 11252
+
+Perf index = 51 (util) + 40 (thru) = 91/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000224 28546
+Total           0%    6400  0.000224 28546
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   58%    6400  0.000566 11307
+Total          58%    6400  0.000566 11307
+
+Perf index = 35 (util) + 40 (thru) = 75/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000255 25128
+Total           0%    6400  0.000255 25128
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   61%    6400  0.000612 10459
+Total          61%    6400  0.000612 10459
+
+Perf index = 36 (util) + 40 (thru) = 76/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000847  7556
+Total           0%    6400  0.000847  7556
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   78%    6400  0.000564 11352
+Total          78%    6400  0.000564 11352
+
+Perf index = 47 (util) + 40 (thru) = 87/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000183 35068
+Total           0%    6400  0.000183 35068
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000557 11492
+Total          81%    6400  0.000557 11492
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000198 32323
+Total           0%    6400  0.000198 32323
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   85%    6400  0.000565 11319
+Total          85%    6400  0.000565 11319
+
+Perf index = 51 (util) + 40 (thru) = 91/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000262 24446
+Total           0%    6400  0.000262 24446
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   80%    6400  0.000569 11246
+Total          80%    6400  0.000569 11246
+
+Perf index = 48 (util) + 40 (thru) = 88/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000251 25508
+Total           0%    6400  0.000251 25508
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   79%    6400  0.000567 11285
+Total          79%    6400  0.000567 11285
+
+Perf index = 47 (util) + 40 (thru) = 87/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.001239  5165
+Total           0%    6400  0.001239  5165
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   78%    6400  0.000539 11876
+Total          78%    6400  0.000539 11876
+
+Perf index = 47 (util) + 40 (thru) = 87/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.001464  4372
+Total           0%    6400  0.001464  4372
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000554 11546
+Total          81%    6400  0.000554 11546
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000199 32209
+Total           0%    6400  0.000199 32209
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   74%    6400  0.000584 10955
+Total          74%    6400  0.000584 10955
+
+Perf index = 44 (util) + 40 (thru) = 84/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000180 35556
+Total           0%    6400  0.000180 35556
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   75%    6400  0.000542 11806
+Total          75%    6400  0.000542 11806
+
+Perf index = 45 (util) + 40 (thru) = 85/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000182 35107
+Total           0%    6400  0.000182 35107
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   83%    6400  0.000553 11569
+Total          83%    6400  0.000553 11569
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000404 15853
+Total           0%    6400  0.000404 15853
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   51%    6400  0.000587 10903
+Total          51%    6400  0.000587 10903
+
+Perf index = 30 (util) + 40 (thru) = 70/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000222 28881
+Total           0%    6400  0.000222 28881
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   84%    6400  0.000552 11592
+Total          84%    6400  0.000552 11592
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000213 30047
+Total           0%    6400  0.000213 30047
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000556 11509
+Total          81%    6400  0.000556 11509
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000780  8208
+Total           0%    6400  0.000780  8208
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000552 11601
+Total          82%    6400  0.000552 11601
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000493 12979
+Total           0%    6400  0.000493 12979
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   53%    6400  0.000624 10250
+Total          53%    6400  0.000624 10250
+
+Perf index = 32 (util) + 40 (thru) = 72/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000213 30118
+Total           0%    6400  0.000213 30118
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   80%    6400  0.000565 11331
+Total          80%    6400  0.000565 11331
+
+Perf index = 48 (util) + 40 (thru) = 88/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.001293  4951
+Total           0%    6400  0.001293  4951
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   58%    6400  0.000569 11244
+Total          58%    6400  0.000569 11244
+
+Perf index = 35 (util) + 40 (thru) = 75/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000220 29131
+Total           0%    6400  0.000220 29131
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000556 11509
+Total          82%    6400  0.000556 11509
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000195 32888
+Total           0%    6400  0.000195 32888
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   83%    6400  0.000561 11400
+Total          83%    6400  0.000561 11400
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000197 32553
+Total           0%    6400  0.000197 32553
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   76%    6400  0.000572 11195
+Total          76%    6400  0.000572 11195
+
+Perf index = 45 (util) + 40 (thru) = 85/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000228 28132
+Total           0%    6400  0.000228 28132
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000560 11424
+Total          82%    6400  0.000560 11424
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000451 14191
+Total           0%    6400  0.000451 14191
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000574 11146
+Total          81%    6400  0.000574 11146
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000455 14081
+Total           0%    6400  0.000455 14081
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   54%    6400  0.000572 11191
+Total          54%    6400  0.000572 11191
+
+Perf index = 33 (util) + 40 (thru) = 73/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000259 24691
+Total           0%    6400  0.000259 24691
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   76%    6400  0.000545 11745
+Total          76%    6400  0.000545 11745
+
+Perf index = 46 (util) + 40 (thru) = 86/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000590 10857
+Total           0%    6400  0.000590 10857
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000561 11408
+Total          81%    6400  0.000561 11408
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000350 18270
+Total           0%    6400  0.000350 18270
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   75%    6400  0.000556 11517
+Total          75%    6400  0.000556 11517
+
+Perf index = 45 (util) + 40 (thru) = 85/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000243 26327
+Total           0%    6400  0.000243 26327
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   83%    6400  0.000552 11590
+Total          83%    6400  0.000552 11590
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000193 33212
+Total           0%    6400  0.000193 33212
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   83%    6400  0.000550 11645
+Total          83%    6400  0.000550 11645
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000348 18370
+Total           0%    6400  0.000348 18370
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   80%    6400  0.000560 11431
+Total          80%    6400  0.000560 11431
+
+Perf index = 48 (util) + 40 (thru) = 88/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000198 32389
+Total           0%    6400  0.000198 32389
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   75%    6400  0.000562 11394
+Total          75%    6400  0.000562 11394
+
+Perf index = 45 (util) + 40 (thru) = 85/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000187 34280
+Total           0%    6400  0.000187 34280
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000562 11390
+Total          81%    6400  0.000562 11390
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000193 33143
+Total           0%    6400  0.000193 33143
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000567 11282
+Total          82%    6400  0.000567 11282
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000870  7359
+Total           0%    6400  0.000870  7359
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   83%    6400  0.000542 11808
+Total          83%    6400  0.000542 11808
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000230 27814
+Total           0%    6400  0.000230 27814
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   84%    6400  0.000559 11443
+Total          84%    6400  0.000559 11443
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000192 33299
+Total           0%    6400  0.000192 33299
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000551 11617
+Total          81%    6400  0.000551 11617
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000958  6681
+Total           0%    6400  0.000958  6681
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   84%    6400  0.000566 11303
+Total          84%    6400  0.000566 11303
+
+Perf index = 51 (util) + 40 (thru) = 91/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000289 22184
+Total           0%    6400  0.000289 22184
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   71%    6400  0.000559 11447
+Total          71%    6400  0.000559 11447
+
+Perf index = 43 (util) + 40 (thru) = 83/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000202 31683
+Total           0%    6400  0.000202 31683
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   80%    6400  0.000567 11283
+Total          80%    6400  0.000567 11283
+
+Perf index = 48 (util) + 40 (thru) = 88/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000213 30075
+Total           0%    6400  0.000213 30075
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   75%    6400  0.000557 11488
+Total          75%    6400  0.000557 11488
+
+Perf index = 45 (util) + 40 (thru) = 85/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000813  7875
+Total           0%    6400  0.000813  7875
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   83%    6400  0.000587 10899
+Total          83%    6400  0.000587 10899
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000396 16162
+Total           0%    6400  0.000396 16162
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   76%    6400  0.000553 11573
+Total          76%    6400  0.000553 11573
+
+Perf index = 46 (util) + 40 (thru) = 86/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000622 10289
+Total           0%    6400  0.000622 10289
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000562 11394
+Total          82%    6400  0.000562 11394
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000219 29170
+Total           0%    6400  0.000219 29170
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   77%    6400  0.000558 11463
+Total          77%    6400  0.000558 11463
+
+Perf index = 46 (util) + 40 (thru) = 86/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.001245  5141
+Total           0%    6400  0.001245  5141
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   79%    6400  0.000575 11138
+Total          79%    6400  0.000575 11138
+
+Perf index = 47 (util) + 40 (thru) = 87/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000190 33737
+Total           0%    6400  0.000190 33737
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   70%    6400  0.000570 11230
+Total          70%    6400  0.000570 11230
+
+Perf index = 42 (util) + 40 (thru) = 82/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000864  7407
+Total           0%    6400  0.000864  7407
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000578 11065
+Total          81%    6400  0.000578 11065
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000601 10654
+Total           0%    6400  0.000601 10654
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   66%    6400  0.000558 11467
+Total          66%    6400  0.000558 11467
+
+Perf index = 39 (util) + 40 (thru) = 79/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000300 21312
+Total           0%    6400  0.000300 21312
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000560 11420
+Total          82%    6400  0.000560 11420
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000517 12391
+Total           0%    6400  0.000517 12391
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000559 11453
+Total          82%    6400  0.000559 11453
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000694  9222
+Total           0%    6400  0.000694  9222
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   84%    6400  0.000555 11523
+Total          84%    6400  0.000555 11523
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000250 25631
+Total           0%    6400  0.000250 25631
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000556 11507
+Total          82%    6400  0.000556 11507
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000486 13163
+Total           0%    6400  0.000486 13163
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   84%    6400  0.000547 11702
+Total          84%    6400  0.000547 11702
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000478 13384
+Total           0%    6400  0.000478 13384
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   84%    6400  0.000539 11867
+Total          84%    6400  0.000539 11867
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000725  8829
+Total           0%    6400  0.000725  8829
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   84%    6400  0.000563 11360
+Total          84%    6400  0.000563 11360
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000337 18980
+Total           0%    6400  0.000337 18980
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   66%    6400  0.000571 11204
+Total          66%    6400  0.000571 11204
+
+Perf index = 40 (util) + 40 (thru) = 80/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000235 27292
+Total           0%    6400  0.000235 27292
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   76%    6400  0.000586 10912
+Total          76%    6400  0.000586 10912
+
+Perf index = 46 (util) + 40 (thru) = 86/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000192 33403
+Total           0%    6400  0.000192 33403
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   64%    6400  0.000562 11384
+Total          64%    6400  0.000562 11384
+
+Perf index = 38 (util) + 40 (thru) = 78/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000907  7053
+Total           0%    6400  0.000907  7053
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   83%    6400  0.000545 11741
+Total          83%    6400  0.000545 11741
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000617 10364
+Total           0%    6400  0.000617 10364
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   86%    6400  0.000574 11144
+Total          86%    6400  0.000574 11144
+
+Perf index = 52 (util) + 40 (thru) = 92/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000429 14922
+Total           0%    6400  0.000429 14922
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   57%    6400  0.000840  7621
+Total          57%    6400  0.000840  7621
+
+Perf index = 34 (util) + 40 (thru) = 74/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000269 23774
+Total           0%    6400  0.000269 23774
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   78%    6400  0.000585 10942
+Total          78%    6400  0.000585 10942
+
+Perf index = 47 (util) + 40 (thru) = 87/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000732  8749
+Total           0%    6400  0.000732  8749
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   61%    6400  0.000563 11364
+Total          61%    6400  0.000563 11364
+
+Perf index = 36 (util) + 40 (thru) = 76/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000193 33195
+Total           0%    6400  0.000193 33195
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000545 11750
+Total          82%    6400  0.000545 11750
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000298 21484
+Total           0%    6400  0.000298 21484
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   84%    6400  0.000534 11990
+Total          84%    6400  0.000534 11990
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000670  9551
+Total           0%    6400  0.000670  9551
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000579 11063
+Total          82%    6400  0.000579 11063
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000394 16231
+Total           0%    6400  0.000394 16231
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   83%    6400  0.000557 11500
+Total          83%    6400  0.000557 11500
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000502 12739
+Total           0%    6400  0.000502 12739
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   84%    6400  0.000550 11630
+Total          84%    6400  0.000550 11630
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000237 27061
+Total           0%    6400  0.000237 27061
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000562 11382
+Total          82%    6400  0.000562 11382
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.001049  6102
+Total           0%    6400  0.001049  6102
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   84%    6400  0.000568 11276
+Total          84%    6400  0.000568 11276
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000680  9415
+Total           0%    6400  0.000680  9415
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   84%    6400  0.000584 10963
+Total          84%    6400  0.000584 10963
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.001094  5850
+Total           0%    6400  0.001094  5850
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000562 11380
+Total          82%    6400  0.000562 11380
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000765  8370
+Total           0%    6400  0.000765  8370
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   83%    6400  0.000564 11352
+Total          83%    6400  0.000564 11352
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000237 27038
+Total           0%    6400  0.000237 27038
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   83%    6400  0.000561 11414
+Total          83%    6400  0.000561 11414
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000704  9097
+Total           0%    6400  0.000704  9097
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   85%    6400  0.000561 11404
+Total          85%    6400  0.000561 11404
+
+Perf index = 51 (util) + 40 (thru) = 91/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000930  6884
+Total           0%    6400  0.000930  6884
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   72%    6400  0.000580 11034
+Total          72%    6400  0.000580 11034
+
+Perf index = 43 (util) + 40 (thru) = 83/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000227 28256
+Total           0%    6400  0.000227 28256
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   80%    6400  0.000579 11046
+Total          80%    6400  0.000579 11046
+
+Perf index = 48 (util) + 40 (thru) = 88/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.001022  6260
+Total           0%    6400  0.001022  6260
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   53%    6400  0.000614 10427
+Total          53%    6400  0.000614 10427
+
+Perf index = 32 (util) + 40 (thru) = 72/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000259 24730
+Total           0%    6400  0.000259 24730
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   83%    6400  0.000576 11121
+Total          83%    6400  0.000576 11121
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000437 14645
+Total           0%    6400  0.000437 14645
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000567 11293
+Total          81%    6400  0.000567 11293
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000345 18556
+Total           0%    6400  0.000345 18556
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000590 10842
+Total          81%    6400  0.000590 10842
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000887  7215
+Total           0%    6400  0.000887  7215
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000562 11392
+Total          82%    6400  0.000562 11392
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000309 20705
+Total           0%    6400  0.000309 20705
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   73%    6400  0.000580 11027
+Total          73%    6400  0.000580 11027
+
+Perf index = 44 (util) + 40 (thru) = 84/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.001037  6171
+Total           0%    6400  0.001037  6171
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   79%    6400  0.000566 11309
+Total          79%    6400  0.000566 11309
+
+Perf index = 48 (util) + 40 (thru) = 88/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000253 25306
+Total           0%    6400  0.000253 25306
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   79%    6400  0.000560 11437
+Total          79%    6400  0.000560 11437
+
+Perf index = 47 (util) + 40 (thru) = 87/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000248 25817
+Total           0%    6400  0.000248 25817
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   84%    6400  0.000547 11707
+Total          84%    6400  0.000547 11707
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000885  7233
+Total           0%    6400  0.000885  7233
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   84%    6400  0.000562 11398
+Total          84%    6400  0.000562 11398
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000378 16913
+Total           0%    6400  0.000378 16913
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   84%    6400  0.000567 11287
+Total          84%    6400  0.000567 11287
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000680  9415
+Total           0%    6400  0.000680  9415
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   83%    6400  0.000569 11242
+Total          83%    6400  0.000569 11242
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000208 30710
+Total           0%    6400  0.000208 30710
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000551 11619
+Total          81%    6400  0.000551 11619
+
+Perf index = 48 (util) + 40 (thru) = 88/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000179 35834
+Total           0%    6400  0.000179 35834
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   85%    6400  0.000552 11586
+Total          85%    6400  0.000552 11586
+
+Perf index = 51 (util) + 40 (thru) = 91/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000313 20467
+Total           0%    6400  0.000313 20467
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000552 11588
+Total          81%    6400  0.000552 11588
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000475 13471
+Total           0%    6400  0.000475 13471
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   75%    6400  0.000543 11784
+Total          75%    6400  0.000543 11784
+
+Perf index = 45 (util) + 40 (thru) = 85/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000352 18192
+Total           0%    6400  0.000352 18192
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000563 11360
+Total          81%    6400  0.000563 11360
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000650  9849
+Total           0%    6400  0.000650  9849
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000541 11826
+Total          82%    6400  0.000541 11826
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000862  7427
+Total           0%    6400  0.000862  7427
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   54%    6400  0.000589 10864
+Total          54%    6400  0.000589 10864
+
+Perf index = 33 (util) + 40 (thru) = 73/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000616 10391
+Total           0%    6400  0.000616 10391
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   84%    6400  0.000552 11588
+Total          84%    6400  0.000552 11588
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.001194  5360
+Total           0%    6400  0.001194  5360
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   71%    6400  0.000551 11607
+Total          71%    6400  0.000551 11607
+
+Perf index = 43 (util) + 40 (thru) = 83/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000269 23748
+Total           0%    6400  0.000269 23748
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000550 11636
+Total          81%    6400  0.000550 11636
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000195 32854
+Total           0%    6400  0.000195 32854
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   83%    6400  0.000558 11476
+Total          83%    6400  0.000558 11476
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000269 23827
+Total           0%    6400  0.000269 23827
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000568 11262
+Total          82%    6400  0.000568 11262
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000288 22222
+Total           0%    6400  0.000288 22222
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   62%    6400  0.000556 11515
+Total          62%    6400  0.000556 11515
+
+Perf index = 37 (util) + 40 (thru) = 77/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000714  8964
+Total           0%    6400  0.000714  8964
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   47%    6400  0.000589 10862
+Total          47%    6400  0.000589 10862
+
+Perf index = 28 (util) + 40 (thru) = 68/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000611 10483
+Total           0%    6400  0.000611 10483
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   79%    6400  0.000558 11480
+Total          79%    6400  0.000558 11480
+
+Perf index = 47 (util) + 40 (thru) = 87/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.001071  5974
+Total           0%    6400  0.001071  5974
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   80%    6400  0.000558 11463
+Total          80%    6400  0.000558 11463
+
+Perf index = 48 (util) + 40 (thru) = 88/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.001311  4881
+Total           0%    6400  0.001311  4881
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   83%    6400  0.000555 11540
+Total          83%    6400  0.000555 11540
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000219 29184
+Total           0%    6400  0.000219 29184
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   74%    6400  0.000561 11412
+Total          74%    6400  0.000561 11412
+
+Perf index = 45 (util) + 40 (thru) = 85/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000349 18359
+Total           0%    6400  0.000349 18359
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000560 11429
+Total          81%    6400  0.000560 11429
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000193 33212
+Total           0%    6400  0.000193 33212
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   84%    6400  0.000556 11509
+Total          84%    6400  0.000556 11509
+
+Perf index = 50 (util) + 40 (thru) = 90/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000202 31746
+Total           0%    6400  0.000202 31746
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   60%    6400  0.000567 11283
+Total          60%    6400  0.000567 11283
+
+Perf index = 36 (util) + 40 (thru) = 76/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000199 32129
+Total           0%    6400  0.000199 32129
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000559 11457
+Total          81%    6400  0.000559 11457
+
+Perf index = 48 (util) + 40 (thru) = 88/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000299 21390
+Total           0%    6400  0.000299 21390
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   79%    6400  0.000573 11161
+Total          79%    6400  0.000573 11161
+
+Perf index = 47 (util) + 40 (thru) = 87/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000817  7838
+Total           0%    6400  0.000817  7838
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   85%    6400  0.000563 11366
+Total          85%    6400  0.000563 11366
+
+Perf index = 51 (util) + 40 (thru) = 91/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000201 31873
+Total           0%    6400  0.000201 31873
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000556 11505
+Total          81%    6400  0.000556 11505
+
+Perf index = 48 (util) + 40 (thru) = 88/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000234 27327
+Total           0%    6400  0.000234 27327
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   67%    6400  0.000557 11492
+Total          67%    6400  0.000557 11492
+
+Perf index = 40 (util) + 40 (thru) = 80/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000280 22833
+Total           0%    6400  0.000280 22833
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   80%    6400  0.000559 11441
+Total          80%    6400  0.000559 11441
+
+Perf index = 48 (util) + 40 (thru) = 88/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000208 30769
+Total           0%    6400  0.000208 30769
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   81%    6400  0.000574 11154
+Total          81%    6400  0.000574 11154
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000205 31204
+Total           0%    6400  0.000205 31204
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   80%    6400  0.000537 11914
+Total          80%    6400  0.000537 11914
+
+Perf index = 48 (util) + 40 (thru) = 88/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000186 34427
+Total           0%    6400  0.000186 34427
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   67%    6400  0.000555 11529
+Total          67%    6400  0.000555 11529
+
+Perf index = 40 (util) + 40 (thru) = 80/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000207 30888
+Total           0%    6400  0.000207 30888
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   82%    6400  0.000584 10953
+Total          82%    6400  0.000584 10953
+
+Perf index = 49 (util) + 40 (thru) = 89/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000650  9849
+Total           0%    6400  0.000650  9849
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   70%    6400  0.000558 11472
+Total          70%    6400  0.000558 11472
+
+Perf index = 42 (util) + 40 (thru) = 82/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000831  7706
+Total           0%    6400  0.000831  7706
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   85%    6400  0.000553 11580
+Total          85%    6400  0.000553 11580
+
+Perf index = 51 (util) + 40 (thru) = 91/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000446 14366
+Total           0%    6400  0.000446 14366
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   77%    6400  0.000555 11525
+Total          77%    6400  0.000555 11525
+
+Perf index = 46 (util) + 40 (thru) = 86/100
+python3 test.py > test.rep
+./mdriver -v -a -l -f test.rep
+Measuring performance with gettimeofday().
+
+Results for libc malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes    0%    6400  0.000552 11598
+Total           0%    6400  0.000552 11598
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   78%    6400  0.000570 11224
+Total          78%    6400  0.000570 11224
+
+Perf index = 47 (util) + 40 (thru) = 87/100
