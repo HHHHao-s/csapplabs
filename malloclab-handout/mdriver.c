@@ -706,6 +706,7 @@ static double eval_mm_util(trace_t *trace, int tracenum, range_t **ranges)
     char *newp, *oldp;
 
     /* initialize the heap and the mm malloc package */
+	
     mem_reset_brk();
     if (mm_init() < 0)
 	app_error("mm_init failed in eval_mm_util");
@@ -774,7 +775,13 @@ static double eval_mm_util(trace_t *trace, int tracenum, range_t **ranges)
         }
     }
 
-    return ((double)max_total_size / (double)mem_heapsize());
+
+	double heapsize = (double)mem_heapsize();
+	
+	double ret = ((double)max_total_size / (double)mem_heapsize());
+	
+
+    return ret;
 }
 
 
